@@ -1,0 +1,8 @@
+def funct35 ():
+    f=[]
+    x=0
+    while x<1000:
+        if x%3 == 0 and x%5 == 0:
+            f.insert(0, x)
+        x=x+1
+    print(sum(f))
